@@ -14,4 +14,6 @@ FROM products AS p
 JOIN order_details AS od ON p.product_id = od.product_id
 GROUP BY p.product_id, p.product_name
 HAVING MIN(od.quantity) = 1 AND MAX(od.quantity) = 1;
+```
 
+![Products Sold Once](../images/product_sold_once.png)
