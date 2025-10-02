@@ -20,4 +20,4 @@ GROUP BY EXTRACT(MONTH FROM o.order_date), TO_CHAR(o.order_date, 'FMMonth')
 ORDER BY EXTRACT(MONTH FROM o.order_date);
 ```
 
-## ![Monthly Sales Trend 1997](../images/monthly_sales_1997.png
+ ![Monthly Sales Trend 1997](../images/monthly_sales_1997.png)
