@@ -20,4 +20,6 @@ SELECT country, AVG(total_order_value) AS average_order_value
 FROM total_orders
 GROUP BY country 
 ORDER BY AVG(total_order_value) DESC;
+```
 
+![Avg Order Value By Country](../images/avg_order_value_country.png)
