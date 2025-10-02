@@ -19,5 +19,5 @@ JOIN order_details AS od ON o.order_id = od.order_id
 GROUP BY c.customer_id, c.company_name
 ORDER BY total_revenue DESC
 LIMIT 5;
-
+```
 ## ![Top Customers](../images/top_customers.png)
