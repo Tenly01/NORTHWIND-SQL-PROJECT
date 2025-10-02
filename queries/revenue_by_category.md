@@ -17,4 +17,6 @@ FROM products AS p
 JOIN order_details AS od ON p.product_id = od.product_id
 JOIN categories AS c ON p.category_id = c.category_id
 GROUP BY c.category_id, c.category_name;
+```
 
+![Revenue By Category](..images/revenue_by_category.png)
