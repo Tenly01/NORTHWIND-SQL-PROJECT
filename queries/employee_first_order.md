@@ -19,4 +19,6 @@ WITH employee_first_order AS (
 SELECT DISTINCT employee_id, employee_name, first_order_date
 FROM employee_first_order
 WHERE order_date = first_order_date;
+```
 
+![Employee First Order Date](../images/employee_first_order.png)
