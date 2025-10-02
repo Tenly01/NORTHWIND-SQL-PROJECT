@@ -30,4 +30,6 @@ ranked_sales AS (
 SELECT *
 FROM ranked_sales
 WHERE employee_rank = 1;
+```
 
+![Employee Sales Rank](../images/employee_sales_rank.png)
