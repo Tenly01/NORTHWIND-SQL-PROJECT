@@ -18,4 +18,6 @@ JOIN order_details AS od ON o.order_id = od.order_id
 WHERE EXTRACT(YEAR FROM o.order_date) = 1997
 GROUP BY EXTRACT(MONTH FROM o.order_date), TO_CHAR(o.order_date, 'FMMonth')
 ORDER BY EXTRACT(MONTH FROM o.order_date);
+```
 
+## ![Monthly Sales Trend 1997](../images/monthly_sales_1997.png
