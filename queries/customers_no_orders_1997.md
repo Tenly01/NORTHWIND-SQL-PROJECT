@@ -16,4 +16,6 @@ WHERE customer_id NOT IN (
   FROM orders
   WHERE EXTRACT(YEAR FROM order_date) = 1997
 );
+```
 
+![Customers with no Orders in 1997](../images/customer_no_order_1997.png)
