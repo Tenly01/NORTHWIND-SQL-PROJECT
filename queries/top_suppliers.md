@@ -16,4 +16,6 @@ JOIN suppliers AS s ON p.supplier_id = s.supplier_id
 GROUP BY s.supplier_id, s.company_name
 ORDER BY SUM(quantity) DESC
 LIMIT 5;
+```
 
+![Top Suppliers By Quantity](../images/top_suppliers.png)
