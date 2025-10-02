@@ -14,4 +14,6 @@ FROM shippers AS s
 JOIN orders AS o ON s.shipper_id = o.ship_via
 WHERE shipped_date IS NOT NULL AND order_date IS NOT NULL
 GROUP BY s.company_name;
+```
 
+![Avg Shipping Time Per Shipper](../images/shipping_time.png)
