@@ -13,4 +13,6 @@ SELECT product_name
 FROM products AS p
 LEFT JOIN order_details AS od ON p.product_id = od.product_id
 WHERE od.product_id IS NULL;
+```
 
+![Products Never Sold](../images/products_never_sold.png)
