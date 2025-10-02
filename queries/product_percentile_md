@@ -21,3 +21,29 @@ SELECT *,
 FROM total_revenue;
 ```
 
+# Product Sales Percentile Ranking
+
+## Problem
+The sales department wants to understand how products rank in terms of total revenue performance.
+
+## Goal
+Assign percentile rankings to products based on revenue.
+
+## Query
+```sql
+WITH total_revenue AS (
+  SELECT p.product_id, p.product_name, 
+         SUM(od.unit_price * od.quantity * (1 - od.discount)) AS total_sales
+  FROM products AS p
+  JOIN order_details AS od ON p.product_id = od.product_id
+  JOIN orders AS o ON od.order_id = o.order_id
+  GROUP BY p.product_id, p.product_name
+)
+SELECT *, 
+       ROUND(CUME_DIST() OVER (ORDER BY total_sales DESC)::numeric, 2) AS sales_percentile
+FROM total_revenue;
+```
+
+## Result
+![Product Percentile](../images/product_percentile.png)
+
