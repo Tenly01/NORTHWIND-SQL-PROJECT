@@ -29,4 +29,6 @@ SELECT
   ) AS cumulative_sales
 FROM order_revenue
 ORDER BY order_year, order_date;
+```
 
+![Yearly Cumulative Sales](../images/cumulative_sales.png)
