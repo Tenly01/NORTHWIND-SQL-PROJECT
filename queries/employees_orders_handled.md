@@ -16,4 +16,6 @@ JOIN orders AS o ON e.employee_id = o.employee_id
 JOIN order_details AS od ON o.order_id = od.order_id
 GROUP BY e.employee_id 
 ORDER BY total_orders DESC;
+```
 
+![Employees With Orders Handled](../images/employees_orders_handled.png)
