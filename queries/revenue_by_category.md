@@ -19,4 +19,4 @@ JOIN categories AS c ON p.category_id = c.category_id
 GROUP BY c.category_id, c.category_name;
 ```
 
-![Revenue By Category](..images/revenue_by_category.png)
+![Revenue By Category](../images/revenue_by_category.png)
