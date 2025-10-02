@@ -28,4 +28,6 @@ return_period AS (
 )
 SELECT *
 FROM return_period;
+```
 
+![Returnig Customer Duration](../images/returning_customers.png)
