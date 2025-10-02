@@ -28,4 +28,6 @@ CASE
     WHEN sales_quartiles = 4 THEN 'Low Value Customers'
 END AS customer_segment
 FROM grouped_customers;
+```
 
+![Customer Quartiles](../images/customer_quartiles.png)
