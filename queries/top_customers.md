@@ -20,4 +20,4 @@ GROUP BY c.customer_id, c.company_name
 ORDER BY total_revenue DESC
 LIMIT 5;
 
-![Top Customers](../images/top_customers_png)
+![Top Customers](../images/top_customers.png)
