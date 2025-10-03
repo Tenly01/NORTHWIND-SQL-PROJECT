@@ -37,7 +37,7 @@ The analysis was conducted using **PostgreSQL**, and the results were visualized
 ## Dashboard
 This dashboard visualizes the results of **7 SQL queries**, exported into Excel and transformed into pivot tables and charts.  
 
-![Dashboard Preview](images/NORTHWIND_DASHBOARD.png)  
+![Dashboard Preview](dashboard/northwind_dashboard.png) 
 
 ---
 
