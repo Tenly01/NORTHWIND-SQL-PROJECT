@@ -68,4 +68,4 @@ The project uses the **Northwind Traders** relational database, which contains c
 
 ##  Documentation
 Full project documentation available here:  
-[NORTHWIND_SQL_ANALYTICS PDF](docs/SQL_NORTHWIND_PROJECT.pdf)
+![NORTHWIND_SQL_ANALYTICS PDF](docs/SQL_NORTHWIND_PROJECT.pdf)
