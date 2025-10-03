@@ -54,7 +54,7 @@ The project uses the **Northwind Traders** relational database, which contains c
 - Few employees generate most sales → recognize and reward top performers.  
 - Shipping efficiency varies by shipper → prioritize faster carriers.  
 - Sales show seasonality → plan promotions and staffing accordingly.  
-- Some products/customers inactive → opportunity for re-engagement.  
+- Some products/customers are inactive → opportunity for re-engagement.  
 
 ---
 
