@@ -25,18 +25,26 @@ The analysis was conducted using **PostgreSQL**, and the results were visualized
 6. Which countries generate the highest average order value?  
 7. Which products/customers had no orders?  
 
----
+### Additional Queries
+8. Which products were never ordered?  
+9. Which customers had no orders in 1997?  
+10. Revenue distribution by product category.  
+11. Returning customers and time between orders.  
+12. Products sold only once per order.  
+13. Product revenue percentile rankings.  
+14. Employees’ first order handled.  
+15. Customer revenue quartiles.  
+16. Yearly cumulative sales growth.  
 
 ## Tools & Technologies
 - **PostgreSQL** – Data querying & analytics  
-- **SQL (CTEs, Window Functions, Views)** – Advanced analysis  
+- **SQL** (CTEs, Window Functions, Views)** – Advanced analysis  
 - **Excel** – Pivot tables, slicers, and dashboard visualization  
 
 ---
 
 ## Dashboard
-This dashboard visualizes the results of **7 SQL queries**, exported into Excel and transformed into pivot tables and charts.  
-
+This dashboard visualizes the results of **7 SQL queries**, exported into Excel and transformed into pivot tables and charts. 
 ![Dashboard Preview](dashboard/northwind_dashboard.png) 
 
 ---
